@@ -1,0 +1,15 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "_version": "20.1.0",
+  
+    "compilerOptions": {
+      "lib": ["ES2015"],
+      "module": "node16",
+      "target": "ES6",
+      "outDir": "dist",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "moduleResolution": "node16"
+    }
+  }

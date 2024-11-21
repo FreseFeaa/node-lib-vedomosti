@@ -1,0 +1,32 @@
+{
+  "name": "@fresefeaa/nodelib",
+  "version": "1.0.0",
+  "description": "Node Vedomosti",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "dev": "tsx index.ts",
+    "build": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FreseFeaa/node-lib-vedomosti.git"
+  },
+  "keywords": [
+    "parser",
+    "vedomosti"
+  ],
+  "author": "FreseFeaa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FreseFeaa/node-lib-vedomosti/issues"
+  },
+  "homepage": "https://github.com/FreseFeaa/node-lib-vedomosti#readme",
+  "devDependencies": {
+    "@types/node": "^22.9.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
