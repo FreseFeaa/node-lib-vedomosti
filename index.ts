@@ -4,7 +4,7 @@ const VedomostiAPI = "https://www.vedomosti.ru/rss/rubric"
 
 
 
-async function getNews({category,fields}:IGetParams){
+export default async function getNews({category,fields}:IGetParams){
 const url = `${RssJsonApi}=${VedomostiAPI}/${category}`
 try{
     const response = await fetch(url);
@@ -27,7 +27,3 @@ console.error(error)
 }
 }
 
-(async () =>{
-    const news = await getNews({category:'business',fields:["title","pubDate","link","description","author"]})
-    console.log(news)
-})();
