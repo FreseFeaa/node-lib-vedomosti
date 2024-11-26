@@ -1,12 +1,13 @@
 {
   "name": "@fresefeaa/nodelib",
-  "version": "1.0.1",
+  "version": "0.0.0-semantically-released",
   "description": "Node Vedomosti",
+  "type": "module",
   "main": "index.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
-  "scripts": {
+  "scripts": { 
     "dev": "tsx index.ts",
     "build": "tsc -p tsconfig.json"
   },
@@ -27,6 +28,11 @@
   "devDependencies": {
     "@types/node": "^22.9.1",
     "tsx": "^4.19.2",
-    "typescript": "^5.6.3"
+    "typescript": "^5.6.3",
+    "semantic-release": "^24.2.0"
+
+    
   }
 }
+
+
